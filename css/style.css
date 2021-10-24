@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    font-size: 62.5%;
+    font-family: sans-serif;
+    overflow-x: hidden;
+}
+.clear{
+    clear: both;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 2.4rem;
+}
+button{
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+
+nav{
+    background: #6c63ffff;
+    color: white;
+    padding: 3rem;
+
+    /* lucas botou essa bagaça */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 15vh;
+    z-index: 3;
+    display: flex;
+}
+nav h1{
+    float: left;
+}
+nav ul{
+    float: right;
+    list-style: none;
+}
+nav li{
+    float: left;
+    margin: 0rem 4rem;
+}
+.fig_logo{
+   height: 10rem;
+   width: 5rem;
+   background-color: black; 
+}
+.logo{
+    height: 50%;
+    
+}
+
+.nav_button{
+    display: flex;
+    align-items: flex-end;
+    padding-left: 50%;
+}
+.hero-section{
+    /* lucas botou essa bagaça */
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.hero-section__left {
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Raleway', sans-serif;
+}
+.hero-section__left h1 {
+    font-size: 5rem;
+}
+.hero-section__left h3 {
+    font-size: 2rem;
+}
+.hero-section__left button{
+    width: 60%;
+    height: 6rem;
+    padding: 1rem;
+    background-color: #6c63ffff;
+    color: white;
+    border-radius: 7px;
+    border: none;
+}
+.circle__frame {
+    width: 120rem;
+    height: 120rem;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 35%;
+    left: 85%;
+    z-index: -1;
+}
+
+.hero-section__right {
+    height: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero-section__right figure > img {
+    height: 40rem;
+}
+
+
+.form-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2rem;
+    height: 100vh;
+}
+.form-section__left figure > img{
+    height: 40rem;
+}
+
+.form-section__right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.form-section__right h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 4rem;
+    color: #2d2b46;
+}
+.form-section__right form {
+    font-family: 'Raleway';
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 50rem;
+}
+
+.form-section__right form input {
+    height: 5rem;
+    width: 50rem;
+    margin: 1.5rem;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 1rem;
+    font-size: 1.8rem;
+}
+
+textarea {
+    height: 20rem;
+    width: 50rem;
+    margin: 1.5rem;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 1rem;
+    font-size: 1.8rem;
+}
+
+.form-section__right form button {
+    width: 50rem;
+    height: 6rem;
+    padding: 1rem;
+    background-color: #6c63ffff;
+    color: white;
+    border-radius: 7px;
+    border: none;
+}
